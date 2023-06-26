@@ -9,11 +9,12 @@ body {
 
 body .container {
   display: flex;
+  flex-direction: space-around;
   border: 1px;
   border-color: black;
   border-style: dashed;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 
   height: 15vh;
   width: 80vw;
@@ -22,4 +23,37 @@ body .container {
 .container .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.projects {
+  height: 50vh;
+  width: 50vw;
+}
+
+.project {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  border: 1px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.project-modal {
+  position: absolute;
+  left: 50%;
+  width: 40%;
+  height: 30%;
+  transform: translate(-50%, 50%);
+}
+
+.hidden {
+  display: none;
 }
