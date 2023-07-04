@@ -6,7 +6,7 @@ body {
   align-items: center;
 }
 
-body .container {
+.container {
   display: flex;
   flex-direction: space-around;
   border: 1px;
@@ -19,10 +19,24 @@ body .container {
   width: 80vw;
 }
 
-.container .container {
+#info {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.links-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#github-logo {
+  max-width: 3rem;
+}
+
+#linkedin-logo {
+  max-width: 2rem;
 }
 
 .projects {
@@ -38,15 +52,6 @@ body .container {
   border-color: black;
   border-width: 1px;
   border-style: solid;
-}
-
-img {
-  max-height: 100%;
-  max-width: 100%;
-}
-
-#github-logo {
-  max-width: 5rem;
 }
 
 /* #project-modal {
