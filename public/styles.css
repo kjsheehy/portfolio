@@ -39,19 +39,48 @@ body {
   max-width: 2rem;
 }
 
-.projects {
+#resume-logo {
+  max-width: 2.2rem;
+  margin-left: 0.35rem;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   height: 50vh;
-  width: 50vw;
 }
 
 .project {
   width: 50%;
   height: 100%;
-  text-align: center;
   border: 1px;
   border-color: black;
   border-width: 1px;
   border-style: solid;
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.project ul {
+  font-size: small;
+  list-style-type: none;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+}
+
+.project-links a {
+  margin: 0 1rem 0 1rem;
+}
+
+#war {
+  background-color: green;
 }
 
 /* #project-modal {
