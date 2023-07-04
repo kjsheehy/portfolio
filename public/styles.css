@@ -11,9 +11,8 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-
-  height: 15vh;
-  width: 80vw;
+  min-height: 10vh;
+  width: 95vw;
 }
 
 #info {
@@ -49,6 +48,11 @@ body {
   margin-left: 0.35rem;
 }
 
+#intro p {
+  margin: 0 5rem 0 5rem;
+  text-indent: 3rem;
+}
+
 #projects {
   display: flex;
   flex-direction: row;
@@ -64,6 +68,7 @@ body {
 
 .project img {
   max-width: 100%;
+  max-height: 40%;
 }
 
 .project ul {
@@ -81,7 +86,15 @@ body {
 }
 
 #war {
-  background-color: green;
+  background-color: rgb(0, 128, 0, 0.8);
+}
+
+#brdng {
+  background-color: rgb(5, 191, 219, 0.8);
+}
+
+#brdng-airline-image {
+  max-height: 35%;
 }
 
 /* #project-modal {
