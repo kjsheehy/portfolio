@@ -1,10 +1,9 @@
 body {
+  background-color: aquamarine;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
-  height: 95vh;
 }
 
 body .container {
@@ -46,14 +45,21 @@ img {
   max-width: 100%;
 }
 
-.project-modal {
+#github-logo {
+  max-width: 5rem;
+}
+
+/* #project-modal {
   position: absolute;
+
   left: 50%;
   width: 40%;
   height: 30%;
   transform: translate(-50%, 50%);
+
+  background-color: white;
 }
 
 .hidden {
   display: none;
-}
+} */
