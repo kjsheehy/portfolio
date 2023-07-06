@@ -102,6 +102,10 @@ body {
   background-color: rgb(5, 191, 219, 0.6);
 }
 
+#dc-run-routes {
+  background-color: whitesmoke;
+}
+
 @media (max-width: 600px) {
   #left-links {
     display: none;
