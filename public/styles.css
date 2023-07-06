@@ -1,5 +1,5 @@
 body {
-  background-color: aquamarine;
+  background-color: rgb(211, 211, 211);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,8 +11,8 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  min-height: 10vh;
-  width: 95vw;
+  width: 100%;
+  margin: 1vh 1vw 1vh 1vw;
 }
 
 #info {
@@ -57,11 +57,6 @@ body {
   text-indent: 3rem;
 }
 
-#projects {
-  display: flex;
-  margin-top: 1rem;
-}
-
 .project {
   display: flex;
   flex: 1;
@@ -69,18 +64,24 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding-bottom: 1rem;
-  width: 50%;
+  padding-bottom: 2vh;
+  margin: 1vh 1vw 1vh 1vw;
+  border-radius: 1.5%;
 }
 
 .project img {
-  max-width: 100%;
-  max-height: 40%;
+  max-width: 95%;
+  margin-bottom: 2vh;
 }
 
 .project ul {
   font-size: small;
   list-style-type: none;
+}
+
+.project p {
+  height: 36px;
+  margin: 5px;
 }
 
 .project-links {
@@ -97,7 +98,7 @@ body {
 }
 
 #brdng {
-  background-color: rgb(5, 191, 219, 0.8);
+  background-color: rgb(5, 191, 219, 0.6);
 }
 
 @media (max-width: 600px) {
@@ -125,9 +126,5 @@ body {
   #projects {
     flex-direction: column;
     height: fit-content;
-  }
-
-  .project {
-    width: 100vw;
   }
 }
